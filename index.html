@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" class="css">
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+          <h3>NEWS WEBSITE</h3>
+        </div>
+           <ul id="navbar">
+            <li id="home"  class="navbar"onclick="searchitem('trending')">home</li>
+            <li  id="sports"class="navbar" onclick="searchitem('sports')">sports</li>
+            <li id="health"class="navbar" onclick="searchitem('health')">health</li>
+           </ul>
+           <form class="input">
+            <input id="search" type="text" placeholder="search news">
+            <button id="btn">Search</button>
+          </form>
+          <span id="menubtn"><i class="fa-solid fa-bars"></i></span>
+    </div>
+    <div class="mobile hidden">
+      <ul >
+        <li id="home" onclick="searchitem('trending')">home</li>
+        <li  id="sports" onclick="searchitem('sports')">sports</li>
+        <li id="health" onclick="searchitem('health')">health</li>
+        <form class="input2"> 
+        <input id="search2" type="text" placeholder="search news">
+        <button id="btn">Search</button>
+        </form>
+      </ul>
+    </div>
+    <main>
+
+    </main>
+    <div class="footer">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmD63famXoUWCVF0vH0lvwFKp0cVPd3YQLlHLfc8A&s">
+     <p>WEBSITE BY ABHISHEK KUMAR KAMAT AND DIPENDRA MANDAL</p>
+  </div>
+    <script src="scrip.js"></script>
+</body>
+</html>
